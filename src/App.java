@@ -7,5 +7,13 @@ public class App {
         usuario1.email = "dario.neto@sou.unifeob.edu.br";
 
         usuario1.displayProfile(); //abre e fecha parenteses para executar ação
+
+        //Criando um post
+        Post p1 = new Post();
+        p1.id = 101;
+        p1.text = "Meu primeiro post";
+        p1.author = usuario1;
+
+        p1.displayPost();
     }
 }
