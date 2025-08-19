@@ -14,4 +14,4 @@ public class User {
     void displayProfile(){
         System.out.println("Perfil de "+ name); //comando pra escrever na tela "sistema, escreva na tela tal coisa, o que esta em parenteses" o ln pula uma lina quando ele escrever
     } //o tipo VOID significa que eu vou executar o metodo mas não vou devolver nenhum dado
-} 
+}
