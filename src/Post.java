@@ -4,6 +4,6 @@ public class Post {
     User author; // esse sera do tipo usuario, vincular quem é o user
 
     void displayPost(){
-        System.out.println("O Perfil de: " + author.getUsername() + "\n publicou: " + text);
+        System.out.println("O Perfil de: " + author.getUsername() + "\npublicou: " + text);
     }
 }
