@@ -1,4 +1,4 @@
-package app;
+package model;
 public class Post {
     //ATRIBUTOS
     protected int id;
@@ -22,7 +22,7 @@ public class Post {
     public User getAuthor(){
         return author;
     }
-    public void setId(User author){
+    public void setAuthor(User author){
         this.author = author; //esse this é pra dizer que o de dentro da class recebe o de fora
     }
 
