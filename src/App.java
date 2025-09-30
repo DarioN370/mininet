@@ -10,9 +10,9 @@ public class App {
 
         //Criando um post
         Post p1 = new Post();
-        p1.id = 101;
-        p1.text = "Meu primeiro post";
-        p1.author = usuario1;
+        p1.setId(101); // agora eu uso o set pois que encapsulei elas na class Post.java, então a class App.java não consegue acessar os valores 
+        p1.setContent("Meu primeiro post");
+        p1.setId(usuario1);
 
         p1.displayPost();
         System.out.println("ID DO USUARIO: " + usuario1.getId()); //aqui eu uso o getId(), ele vai la na class User.java, pega o valor do ID, e me mostra aqui
