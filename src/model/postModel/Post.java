@@ -1,7 +1,10 @@
-package model;
+package model.postModel;
+
+import model.userModel.User;
+
 public class Post {
     //ATRIBUTOS
-    protected int id;
+    private int id;
     private String content;
     private User author; // esse sera do tipo usuario, vincular quem é o user
 

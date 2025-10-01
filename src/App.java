@@ -1,5 +1,5 @@
-import model.User;
-import model.Post;
+import model.postModel.Post;
+import model.userModel.User;
 public class App {
     public static void main(String[] args) throws Exception {
         User usuario1 = new User(); // pedindo pra construir ele do zero eu uso o NEW

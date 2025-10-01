@@ -3,7 +3,7 @@
 //fortemente tipada, os atributos tem sempre tipos
 
 // o nome da classe tem que ser o mesmo do arquivo .java
-package model;
+package model.userModel;
 public class User {
     //ATRIBUTOS = O que a classe tem
     private int id;
@@ -25,7 +25,7 @@ public class User {
         if(id > 0){
             this.id = id;
         } else {
-            System.out.println("VALOR DE CÓDIGO INVALIDO, PREENCHER MAIOR QUE ZERO");
+            System.out.println("VALOR DE ID INVALIDO, PREENCHER COM NUMERO DO ID MAIOR QUE ZERO");
         } // esse if é pra nao permitir que haja um id menor que zero, pra não ter user negativo né
         
     } //void pq ele só pega o valor e guarda, o argumento (), mostra o que você vai pegar, e o tipo que ce ta pegando - Quando voce usa o This, vc pega o da classe, ou seja, aqui eu mexo no ID da classe, e guardando nele o ID que vou receber de outro lugar 
