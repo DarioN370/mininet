@@ -19,6 +19,7 @@ public class App {
         PhotoPost pp1 = new PhotoPost(103, "Post com foto", usuario1, "meudominio.com/foto1.jpg");
         VideoPost vp1 = new VideoPost(104, "Post com video", usuario1, "meudominio.com/video1.mp4");
 
+        //pedindo para mostrar os posts com a function displayPost();
         p1.displayPost();
         tp1.displayPost();
         pp1.displayPost();
