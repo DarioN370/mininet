@@ -15,11 +15,8 @@ public class App {
 
         //Criando os posts
         Post p1 = new Post(101, "Meu primeiro post", usuario1);
-    
         TextPost tp1 = new TextPost(102, "Post de texto", usuario1);
-
         PhotoPost pp1 = new PhotoPost(103, "Post com foto", usuario1, "meudominio.com/foto1.jpg");
-
         VideoPost vp1 = new VideoPost(104, "Post com video", usuario1, "meudominio.com/video1.mp4");
 
         p1.displayPost();
