@@ -8,11 +8,27 @@ public class Post {
     private String content;
     private User author; // esse sera do tipo usuario, vincular quem é o user
 
+
+    //metodo construtor
+    //Defini como os objetos serão construidos
+    public Post(int id, String content, User author){
+        this.id = id;
+        this.content = content;
+        this.author = author;
+    }
+
+
+
+    //GETTER E SETTER
     public int getId(){ //RECEBE
         return id;
     }
     public void setId(int id){ //MODIFICA
-        this.id = id; //esse this é pra dizer que o de dentro da class recebe o de fora
+        if(id > 0){
+            this.id = id;
+        } else {
+            System.out.println("VALOR DE ID INVALIDO, PREENCHER COM NUMERO DO ID MAIOR QUE ZERO");
+        } // esse if é pra nao permitir que haja um id menor que zero, pra não ter user negativo né
     }
 
     public String getContent(){
